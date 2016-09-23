@@ -6,4 +6,13 @@ $(document).ready(function() {
             $("<div>").addClass("unit").appendTo('#container');
         }
     }
+
+$(".unit").hover(function(){
+        $(this).css("background-color", "blue");
+        }, 
+
+        function(){
+        $(this).css("background-color", "pink"); 
+    });
 });
+
