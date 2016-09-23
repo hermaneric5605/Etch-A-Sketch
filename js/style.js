@@ -14,5 +14,13 @@ $(".unit").hover(function(){
         function(){
         $(this).css("background-color", "pink"); 
     });
+
+
+	$("button").click(function(){
+		$(".unit").css("background-color", "white");
+    prompt("What size grid would you like?");
+})
+
 });
+
 
